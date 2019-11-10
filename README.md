@@ -11,9 +11,13 @@ According the schematic diagram as below, this tool will:
 
 #### Example:
 1. Modify the specific transaction hash on `get_txn_deep.py`: 
+
    ``` hash_transatcion = "SJXZIEIUAEIITGZEZGAGRMCFNFLYVAFC9NPQPOEP9KPGMH9UHDAXZIUD9CMRD9RXSMMVGZUDORX999999" ```
+
 2. Run it
+
    ``` $ python3 get_txn_deep.py ```
+
 3. Output
    - Get milestone transaction hash: ``` UZDVF9WDTPDIFAVSBXPMYWWHKQIVG9GCTMKFIBVYCZRQRRAJBONYWINLAPUOIVPCDQBKLKITIZDJZ9999 ```
    - Get IRI-depth: 66878
