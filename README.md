@@ -1,9 +1,13 @@
 # Get IOTA transaction depth
 
-1. Give a specific IOTA transaction (A)
-2. List all child transactions
-3. Get the approved milestone transaction
-4. Calculate (A) IRI-depth
+According the schematic diagram as below, this tool will:
+
+![](imgs/schematic.png)
+
+1. Give a specific IOTA transaction (TXN-A)
+2. List all child transactions: txn(3), txn(4)
+3. Get the approved milestone transaction: txn(5)
+4. Calculate (A) IRI-depth: the depth from txn(7) to txn(4)
 
 #### Example:
 1. Modify the specific transaction hash on `get_txn_deep.py`: 
